@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=mtu\ quiet\ revealControlCodes
+comment0.target=FrameSender(int,\ boolean,\ boolean)
+comment0.text=\n\ FrameSender\ constructor.\n\ Create\ and\ initialize\ new\ FrameSender.\n\ @param\ mtu\ the\ maximum\ transfer\ unit\ (frame\ length)\ to\ support\n\ @param\ quiet\ true\ for\ quiet\ mode\ which\ suppresses\ prompts\ and\ status\ info\n\ @param\ revealControlCodes\ true\ if\ control\ codes\ are\ to\ be\ made\ visible\n
+comment1.params=
+comment1.target=int\ getMTU()
+comment1.text=\n\ Get\ the\ MTU\n\ @return\ the\ maximum\ transfer\ unit\ supported\n
+comment2.params=frame
+comment2.target=void\ sendFrame(java.lang.String)
+comment2.text=\n\ Send\ a\ single\ frame.\n\ If\ a\ message\ is\ split\ across\ several\ frames\ this\ method\ must\ be\n\ called\ separately\ for\ each\ frame\ in\ turn.\n\ @param\ frame\ the\ frame\ to\ be\ sent.\ \ The\ length\ must\ not\ exceed\n\ the\ MTU\ and\ there\ should\ be\ no\ extraneous\ leading\ or\ trailing\n\ characters\n\ @throws\ ProtocolException\ in\ the\ event\ of\ an\ error\n
+comment3.params=str
+comment3.target=void\ printAndRevealControlCodes(java.lang.String)
+comment3.text=\n\ Print\ string\ and\ reveal\ any\ control\ codes\ (make\ them\ visible).\n\ This\ private\ method\ helps\ reveal\ errors\ in\ the\ content\ of\ a\n\ frame\ that\ may\ not\ be\ visible\ if\ it's\ printed\ out\ normally,\n\ such\ as\ spurious\ null\ characters.\n\ @param\ str\ string\ to\ be\ printed\n
+numComments=4

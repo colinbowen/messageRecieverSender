@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=physicalLayer\ quiet
+comment0.target=MessageSender(FrameSender,\ boolean)
+comment0.text=\n\ MessageSender\ constructor\ (DO\ NOT\ ALTER\ ANY\ PART\ OF\ THIS)\n\ Create\ and\ initialize\ new\ MessageSender.\n\ @param\ physicalLayer\ physical\ layer\ object\ with\ frame\ sender\ service\n\ (this\ will\ already\ have\ been\ created\ and\ initialized\ by\ TestSender)\n\ @param\ quiet\ true\ for\ quiet\ mode\ which\ suppresses\ prompts\ and\ status\ info\n
+comment1.params=message
+comment1.target=void\ sendMessage(java.lang.String)
+comment1.text=\n\ Send\ a\ message\ (THIS\ IS\ THE\ ONLY\ METHOD\ YOU\ NEED\ TO\ MODIFY)\n\ @param\ message\ the\ message\ to\ be\ sent.\ \ The\ message\ can\ be\ any\n\ length\ and\ may\ be\ empty\ but\ the\ string\ reference\ should\ not\n\ be\ null.\n\ @throws\ ProtocolException\ immediately\ without\ attempting\ to\n\ send\ any\ further\ frames\ if\ (and\ only\ if)\ the\ physical\ layer\n\ throws\ an\ exception\ or\ the\ given\ message\ can't\ be\ sent\n\ without\ breaking\ the\ rules\ of\ the\ protocol\ (e.g.\ if\ the\ MTU\n\ is\ too\ small)\n
+numComments=2
